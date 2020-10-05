@@ -7,9 +7,26 @@ h1 {
     font-style: italic;
     text-align: center;
   }
-  p {
+ p {
+    display: flex;
+    align-items: center;
+   justify-content: center;
     font-family: sans-serif;
   }
   ul {
+    margin 20px;
+    border-radius: 20px;
+    background-color:rgba(0, 128, 0, 0.568);
+    display: flex;
+    align-items: center;
+   justify-content: center;
     line-height: 40px;
+  }
+  li{
+    padding: 3px 20px;
+    
+    margin: 5px 100px;
+    border-radius: 20px;
+    background-color:rgba(169, 218, 169, 0.568);
+    list-style: none;
   }
